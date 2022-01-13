@@ -1,9 +1,34 @@
+
+import MovieCard from "components/MovieCard";
+import MovieScore from "components/MovieScore";
 import Pagination from "components/Pagination";
 
-export default function Listing(){
-    return(
+export default function Listing() {
+    return (
         <>
-        <Pagination/>
+            <Pagination />
+
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <MovieCard />
+                    </div>
+                    <div className="col">
+                        <MovieCard />
+                    </div>
+                    <div className="col">
+                        <MovieCard />
+                    </div>
+                    <div className="col">
+                        <MovieCard />
+                    </div>
+                </div>
+                
+            </div>
+
+
+
+
         </>
     )
 }; 
