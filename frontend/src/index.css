@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-primary: #4D41C0;
+  --color-primary: #41c0af;
+  border: none;
+  outline: none;
 }
 
 * {
@@ -17,3 +19,16 @@ a, a:hover {
   text-decoration: none;
   color: unset;
 }
+
+.btn-primary{
+border-color: transparent;
+transition-duration: 0.9;
+
+}
+
+.btn-primary:hover{
+ background-color: white;
+ color: #41c0af;
+ border-color: #41c0af;
+   
+  }
